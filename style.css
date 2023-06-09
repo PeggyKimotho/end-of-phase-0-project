@@ -1,0 +1,14 @@
+.navdiv {
+display: flex;
+justify-content: space-between;
+}
+.navbar {
+background-color: white;
+}
+li {
+    display: inline;
+    margin-right: 25px;
+}
+body {
+    background-color: azure;
+}
