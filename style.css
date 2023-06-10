@@ -1,14 +1,143 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+}
 .navdiv {
-display: flex;
-justify-content: space-between;
+display: inline-block;
 }
 .navbar {
+display: flex;
+justify-content: space-between;
 background-color: white;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+padding-left: 15px;
+padding-right: 15px;
+font-weight: bold;
 }
 li {
     display: inline;
     margin-right: 25px;
 }
 body {
-    background-color: azure;
+    background-color: #f7f7f7;
+}
+.introtopic {
+    display: flex;
+    flex-direction: column;
+}
+.introtopic p {
+    text-align: left;
+    width: 45%;
+}
+.aboutus {
+    display: flex;
+
+}
+.team {
+    
+    display: flex;
+    padding: 30px 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.profile {
+    width: 100%;
+    padding: 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.ourteam h1 {
+    text-align: center;
+}
+.person {
+    width: 200px;
+    height: 200px;
+}
+
+
+.card img {
+    border-radius: 50%;
+}
+.card h3 {
+    font-weight: 500;
+}
+.icon img {
+    width: 10%;
+    height: 10%;
+}
+.footer {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.followus {
+    width: 30px;
+    height: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div h1 #changefont {
+    font-family: 'Pacifico', cursive;
+}
+#fol {
+    text-align: center;
+}
+.contactus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#submit {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    
+}
+.form {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    padding:20px;
+}
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid purple;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(212, 175, 250);
+    color: white;
+}
+.submit {
+    background-color: blueviolet;
+    color: white;
+    font-weight:bolder;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+}
+.testimonials {
+    display: flex;
+    justify-content: center;
+}
+.bg-image {
+   width: 100%;
+   height: 600px;
+}
+.introtopic {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  padding-top: 80px;
+}
+.container h1 {
+    font-family: 'Pacifico', cursive;
 }
